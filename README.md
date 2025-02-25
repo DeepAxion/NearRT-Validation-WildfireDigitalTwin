@@ -21,8 +21,11 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a>
+    <img src="images/carta.png" alt="Logo" width="80" height="80" style="display:inline-block;">
+  </a>
+  <a>
+    <img src="images/nasa.png" alt="Logo" width="80" height="80" style="display:inline-block;">
   </a>
 
   <h3 align="center">Best-README-Template</h3>
