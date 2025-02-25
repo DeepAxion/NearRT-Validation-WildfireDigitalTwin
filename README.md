@@ -22,10 +22,10 @@
 <br />
 <div align="center">
   <a>
-    <img src="images/carta.png" alt="Logo" width="80" height="80" style="display:inline-block;">
+    <img src="images/carta.jpeg" alt="CARTA" width="100" height="100" style="display:inline-block;">
   </a>
   <a>
-    <img src="images/nasa.png" alt="Logo" width="80" height="80" style="display:inline-block;">
+    <img src="images/nasa.png" alt="NASA" width="100" height="100" style="display:inline-block;">
   </a>
 
   <h3 align="center">Best-README-Template</h3>
