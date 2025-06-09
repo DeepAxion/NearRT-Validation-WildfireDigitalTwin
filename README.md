@@ -44,7 +44,7 @@
 
 <!-- DEMO -->
 <div align="center">
-<img src="images/demo.png" alt="Validation" width="500" height="200" style="display:inline-block">
+<img src="images/demo.png" alt="Validation" width="700" height="300" style="display:inline-block">
 </div>
 
 <!-- TABLE OF CONTENTS -->
