@@ -147,13 +147,13 @@ This is an example of how to list things you need to use the software and how to
 Using M2M API to search and acquire data 
 ```
 python -O m2m_download.py --acq-date $DATE \
-			--dataset $DATASET\
-			--spacecraft $SPACECRAFT \
-            -cc 10 \
-			-d $DESTINATION/$TILE_LONG/ \
-			--region CU \
-			--horizontal $TILE_H --vertical $TILE_V\
-		    -search-only
+                          --dataset $DATASET \
+                          --spacecraft $SPACECRAFT\
+                          -cc 10 \
+                          -d $DESTINATION/$TILE_LONG/ \
+                          --region CU \
+                          --horizontal $TILE_H --vertical $TILE_V\
+                          -search-only # use for searching 
 ```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
