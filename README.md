@@ -19,17 +19,14 @@
 
 
 <!-- PROJECT LOGO -->
-<table align="center">
-  <tr>
-    <td align="center">
-      <img src="images/umbc.png" alt="CARTA" width="100" height="100" style="border-radius: 50%;">
-    </td>
-    <td width="50"></td>
-    <td align="center">
-      <img src="images/nasa.jpg" alt="NASA" width="100" height="100" style="border-radius: 50%;">
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <span style="display: inline-block; margin-right: 40px;">
+    <img src="images/umbc.png" alt="CARTA" width="200" height="200" style="border-radius: 50%;">
+  </span>
+  <span style="display: inline-block;">
+    <img src="images/nasa.jpg" alt="NASA" width="200" height="200" style="border-radius: 50%;">
+  </span>
+</p>
 
 
 <br/>
