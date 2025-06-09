@@ -212,6 +212,7 @@ Distributed under the Unlicense License. See `LICENSE.txt` for more information.
 ## Contact
 
 Khoi Nguyen - bakhoin1@umbc.edu
+
 Adam Bargteil - adamb@umbc.edu
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
