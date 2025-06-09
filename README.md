@@ -24,7 +24,7 @@
   <a>
     <img src="images/umbc.png" alt="CARTA" width="100" height="100" style="display:inline-block; border-radius: 50%">
   </a>
-  <a style="margin-left: 30px">
+  <a style="margin-left: 50px">
     <img src="images/nasa.jpg" alt="NASA" width="100" height="100" style="display:inline-block; border-radius: 50%">
   </a>
 
@@ -109,9 +109,6 @@ We seek to address these limitations by developing a lightweight machine learnin
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
@@ -121,8 +118,6 @@ This is an example of how to list things you need to use the software and how to
   ```
 
 ### Installation
-
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
@@ -147,13 +142,19 @@ _Below is an example of how you can instruct your audience on installing and set
 
 
 
-<!-- USAGE EXAMPLES -->
-## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
+## Download data using M2M API
+Using M2M API to search and acquire data 
+```
+python -O m2m_download.py --acq-date $DATE \
+			--dataset $DATASET\
+			--spacecraft $SPACECRAFT \
+            -cc 10 \
+			-d $DESTINATION/$TILE_LONG/ \
+			--region CU \
+			--horizontal $TILE_H --vertical $TILE_V\
+		    -search-only
+```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -219,7 +220,7 @@ Adam Bargteil - adamb@umbc.edu
 
 
 
-<!-- ACKNOWLEDGMENTS -->
+<!-- ACKNOWLEDGMENTS
 ## Acknowledgments
 
 Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
@@ -259,5 +260,5 @@ Use this space to list resources you find helpful and would like to give credit 
 [QGIS]: https://img.shields.io/badge/QGIS-%23009300.svg?style=for-the-badge&logo=qgis&logoColor=white
 [QGIS-url]: https://docs.qgis.org/3.34/en/docs/server_manual/services/basics.html
 [USGS]: https://img.shields.io/badge/Data%20Source-USGS-0a4ea3?style=for-the-badge&logo=earth&logoColor=white
-[usgs-url]: https://earthexplorer.usgs.gov/
+[usgs-url]: https://earthexplorer.usgs.gov/ -->
 
