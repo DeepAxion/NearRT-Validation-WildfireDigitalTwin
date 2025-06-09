@@ -24,7 +24,7 @@
   <a>
     <img src="images/umbc.png" alt="CARTA" width="100" height="100" style="display:inline-block; border-radius: 50%">
   </a>
-  <a>
+  <a style="margin-left: 30px">
     <img src="images/nasa.jpg" alt="NASA" width="100" height="100" style="display:inline-block; border-radius: 50%">
   </a>
 
@@ -40,6 +40,11 @@
     &middot;
     <a href="images\WDT Architecture.png">Wildfire Digital Twin</a>
   </p>
+</div>
+
+<!-- DEMO -->
+<div align="center">
+<img src="images/demo.png" alt="Validation" width="500" height="200" style="display:inline-block">
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -72,9 +77,9 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-<div align="center">
+<!-- <div align="center">
 <img src="images/validation.png" alt="Validation" width="300" height="300" style="display:inline-block; border-radius:20%">
-</div>
+</div> -->
 
 **Validation** is a key component of our NASA FireSense project developing a Wildfire Digital Twin; we seek to compare wildfire simulation results to real-world physical observations. A classical approach estimates real-world burn severity using multiband spectral images captured by Landsat satellites.
 
@@ -122,7 +127,7 @@ _Below is an example of how you can instruct your audience on installing and set
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/DeepAxion/NearRT-Validation-WildfireDigitalTwin.git
    ```
 3. Install NPM packages
    ```sh
@@ -153,7 +158,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 
 
-<!-- ROADMAP -->
+<!-- ROADMAP
 ## Roadmap
 
 - [x] Add Changelog
@@ -166,7 +171,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 
 
@@ -184,13 +189,13 @@ Don't forget to give the project a star! Thanks again!
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-### Top contributors:
+<!-- ### Top contributors:
 
 <a href="https://github.com/othneildrew/Best-README-Template/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=othneildrew/Best-README-Template" alt="contrib.rocks image" />
 </a>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 
 
@@ -206,9 +211,8 @@ Distributed under the Unlicense License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
-
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Khoi Nguyen - bakhoin1@umbc.edu
+Adam Bargteil - adamb@umbc.edu
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
