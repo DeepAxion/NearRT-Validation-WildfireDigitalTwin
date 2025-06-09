@@ -22,10 +22,10 @@
 <br />
 <div align="center">
   <div style="display: inline-block; margin-right: 50px;">
-    <img src="images/umbc.png" alt="CARTA" width="100" height="100" style="border-radius: 50%;">
+    <img src="images/umbc.png" alt="CARTA" width="200" height="200" style="border-radius: 50%;">
   </div>
-  <div style="display: inline-block;">
-    <img src="images/nasa.jpg" alt="NASA" width="100" height="100" style="border-radius: 50%;">
+  <div style="display: inline-block">
+    <img src="images/nasa.jpg" alt="NASA" width="200" height="200" style="border-radius: 50%;">
   </div>
 
   <h2 align="center">Near Real Time Validation in a Wildfire Digital Twin</h2>
