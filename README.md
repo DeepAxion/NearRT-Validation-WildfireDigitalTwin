@@ -21,12 +21,12 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a>
-    <img src="images/umbc.png" alt="CARTA" width="100" height="100" style="display:inline-block; border-radius: 50%">
-  </a>
-  <a style="margin-left: 50px">
-    <img src="images/nasa.jpg" alt="NASA" width="100" height="100" style="display:inline-block; border-radius: 50%">
-  </a>
+  <div style="display: inline-block; margin-right: 50px;">
+    <img src="images/umbc.png" alt="CARTA" width="100" height="100" style="border-radius: 50%;">
+  </div>
+  <div style="display: inline-block;">
+    <img src="images/nasa.jpg" alt="NASA" width="100" height="100" style="border-radius: 50%;">
+  </div>
 
   <h2 align="center">Near Real Time Validation in a Wildfire Digital Twin</h2>
 
@@ -260,5 +260,5 @@ Use this space to list resources you find helpful and would like to give credit 
 [QGIS]: https://img.shields.io/badge/QGIS-%23009300.svg?style=for-the-badge&logo=qgis&logoColor=white
 [QGIS-url]: https://docs.qgis.org/3.34/en/docs/server_manual/services/basics.html
 [USGS]: https://img.shields.io/badge/Data%20Source-USGS-0a4ea3?style=for-the-badge&logo=earth&logoColor=white
-[usgs-url]: https://earthexplorer.usgs.gov/ -->
+[usgs-url]: https://earthexplorer.usgs.gov/ 
 
