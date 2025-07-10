@@ -25,9 +25,8 @@
   </span>
 </p>
 
-<br/>
 <div align="center">
-  <h2 align="center">Near Real Time Validation in a Wildfire Digital Twin</h2>
+  <h1 align="center">Near Real Time Validation in a Wildfire Digital Twin</h2>
 
   <p align="center">
     Can we validate a Wildfire Digital Twin using Machine Learning?
@@ -35,7 +34,7 @@
     <br />
     <!-- <a href="">DEMO LINK</a>
     &middot; -->
-    <a href="">Work Log</a>
+    <a href="work_log.md">Work Log</a>
     &middot;
     <a href="images\WDT Architecture.png">Wildfire Digital Twin</a>
   </p>
@@ -102,6 +101,34 @@ We seek to address these limitations by developing a lightweight machine learnin
 * [![QGIS][QGIS]][QGIS-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## What is pix2pix?
+**pix2pix** is a supervised learning framework based on Generative Adversarial Networks (GANs) for **image-to-image** translation tasks. It learns a mapping from input images to output images using paired training data. The model consists of a **U-Net-based Generator** and a **PatchGAN Discriminator**, trained jointly with a combination of adversarial loss and L1 loss to produce realistic and structurally accurate outputs.
+
+Check our [worklog](work_log.md) to understand why we use it!
+
+## Model Architecture
+
+### 🎨 Generator (U-Net)
+The **Generator** in pix2pix is responsible for converting the input image into a target image. It uses a **U-Net architecture**, which is a convolutional encoder-decoder with skip connections. These skip connections allow the model to preserve spatial information from earlier layers, helping it generate outputs that are both detailed and structurally consistent with the input.
+
+<p align="center">
+  <img src="images\generator.png" alt="Generator Architecture" height=400 width="300">
+</p>
+
+*source: [pix2pix: Image-to-Image Translation with Conditional Adversarial Networks](https://www.tensorflow.org/tutorials/generative/pix2pix)*
+
+
+### 🕵️ Discriminator (PatchGAN)
+The **Discriminator** evaluates how realistic the Generator's output is, comparing it to real ground-truth images. **pix2pix** uses a **PatchGAN** discriminator, which looks at small patches (e.g., 70×70 pixels) of the image rather than the full image at once. This allows it to enforce realism at the local level (texture, edges, small details).
+
+<p align="center">
+  <img src="images\discriminator.png" alt="Generator Architecture" height=400 width="300">
+</p>
+
+*source: [pix2pix: Image-to-Image Translation with Conditional Adversarial Networks](https://www.tensorflow.org/tutorials/generative/pix2pix)*
+
 
 
 
