@@ -21,10 +21,9 @@
 <!-- PROJECT LOGO -->
 <p align="center">
   <span style="display: inline-block;">
-    <img src="images/nasa.png" alt="NASA" width="200" height="200" style="border-radius: 50%;">
+    <img src="images/nasa.png" alt="NASA" width="300" height="300" style="border-radius: 50%;">
   </span>
 </p>
-
 
 <br/>
 <div align="center">
