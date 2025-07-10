@@ -45,7 +45,7 @@
 <img src="images/demo.png" alt="Validation" width="700" height="300" style="display:inline-block">
 </div>
 
-<!-- TABLE OF CONTENTS -->
+<!-- TABLE OF CONTENTS
 <details>
   <summary>Table of Contents</summary>
   <ol>
@@ -69,9 +69,9 @@
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
-</details>
+</details> -->
 
-
+<br>
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
@@ -86,7 +86,7 @@ More recently, USGS has developed and begun providing Burned Probability (BP) pr
 - **Time delays** 
 - **Geographic restrictions**
 
-We seek to address these limitations by developing a lightweight machine learning algorithm using [pix2pix](https://arxiv.org/abs/1611.07004) to approximate USGS BP products globally in near real-time from **Harmonized Landsat and Sentinel-2 (HLS)** data. 
+We seek to address these limitations by developing a lightweight machine learning algorithm using [pix2pix](https://arxiv.org/abs/1611.07004) to approximate USGS BP products globally in near real-time from **Landsat and Sentinel-2** data. 
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
