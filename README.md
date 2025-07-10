@@ -168,7 +168,6 @@ This is an example of how to list things you need to use the software and how to
  -->
 
 
-
 ## Download data using M2M API
 Using M2M API to search and acquire data 
 ```
@@ -184,6 +183,23 @@ python -O m2m_download.py --acq-date $DATE \
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
+## Result
+
+***Input: nNBR of the Palisades Fire in California***
+<p align="center">
+  <img src="images\nNBR_palisades.png" alt="Generator Architecture" width="300">
+</p>
+
+***Ground truth: USGS Burn Probability Product***
+<p align="center">
+  <img src="images\bp_palisades.png" alt="Generator Architecture" width="300">
+</p>
+
+
+***Model's output***
+<p align="center">
+  <img src="images\palisades_full.png" alt="Generator Architecture" width="300">
+</p>
 
 <!-- ROADMAP
 ## Roadmap

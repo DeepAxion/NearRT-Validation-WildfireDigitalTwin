@@ -77,11 +77,18 @@ For better visualization, we re-assembled these 256x256 output images. Next, we 
 So we have the input of as nNBR:
 
 *nNBR of the Palisades Fire in California*
-![nNBR_palisades.png](images/nNBR_palisades.png)
+<p align="center">
+  <img src="images\nNBR_palisades.png" alt="Generator Architecture" width="300">
+</p>
 
 And the BP as the ground truth:
-![images/2025-07-10-22-38-42.png](images/bp_palisades.png)
+<p align="center">
+  <img src="images\bp_palisades.png" alt="Generator Architecture" width="300">
+</p>
+
 
 This is the model's output:
-![palisades_full.png](images/palisades_full.png)
+<p align="center">
+  <img src="images\palisades_full.png" alt="Generator Architecture" width="300">
+</p>
 
