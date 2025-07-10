@@ -20,9 +20,6 @@
 
 <!-- PROJECT LOGO -->
 <p align="center">
-  <span style="display: inline-block; margin-right: 40px;">
-    <img src="images/umbc.png" alt="CARTA" width="200" height="200" style="border-radius: 50%;">
-  </span>
   <span style="display: inline-block;">
     <img src="images/nasa.jpg" alt="NASA" width="200" height="200" style="border-radius: 50%;">
   </span>
