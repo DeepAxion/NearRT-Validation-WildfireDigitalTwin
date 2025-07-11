@@ -188,8 +188,7 @@ python -O m2m_download.py --acq-date $DATE \
 
 <p align="center">
   <img src="images/nNBR_august.png" alt="nNBR August Complex Fire" width="300" style="display: block; margin: auto;" />
-</p>
-<p style="text-align: center;"><em>nNBR of the AUGUST COMPLEX Fire</em></p>
+<em>nNBR of the AUGUST COMPLEX Fire</em></p>
 
 <p>And the BP as the ground truth:</p>
 
