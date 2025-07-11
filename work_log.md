@@ -57,6 +57,7 @@ Because of the huge dimension of Landsat data (5000 x 5000), we broke down the i
 
 ![images/2025-07-10-22-09-40.png](images/nbr_patch3.png)
 
+---
 ### 📑 Initial Results
 
 After running a good number of experiments, we ended up training a working model, which we then tested on the same scene but different date. Here are some sample results:
@@ -76,39 +77,48 @@ For better visualization, we re-assembled these 256x256 output images. Next, we 
 
 So we have the input of as nNBR:
 
-*nNBR of the AUGUST COMPLEX Fire*
-<p align="center">
-  <img src="images\nNBR_august.png" alt="Generator Architecture" width="300">
-</p>
+<div style="text-align: center;">
+  <img src="images/nNBR_august.png" width="300">
+  <p><em>nNBR of the AUGUST COMPLEX Fire</em></p>
+</div>
+
 
 And the BP as the ground truth:
-<p align="center">
-  <img src="images\august_groundtruth_cm.png" alt="Generator Architecture" width="300">
-</p>
+<div style="text-align: center;">
+  <img src="images/august_groundtruth_cm.png" width="300">
+  <p><em>Burn probability of the AUGUST COMPLEX Fire</em></p>
+</div>
 
 
 This is the model's output:
-<p align="center">
-  <img src="images\august_prediction_cm.png" alt="Generator Architecture" width="300">
-</p>
+<div style="text-align: center;">
+  <img src="images/august_prediction_cm.png" width="300">
+  <p><em>Model's output</em></p>
+</div>
 
 
 We also assembled the Palisades Fire scene and colormapped the full image:
 
-*nNBR of the Palisades Fire in California*
-<p align="center">
-  <img src="images\nNBR_palisades.png" alt="Generator Architecture" width="300">
-</p>
+<div style="text-align: center;">
+  <img src="images/nNBR_palisades.png" width="300">
+  <p><em>nNBR of the Palisades Fire in California</em></p>
+</div>
+
 
 And the BP as the ground truth:
-<p align="center">
-  <img src="images\palisades_full.png" alt="Generator Architecture" width="300">
-</p>
+
+<div style="text-align: center;">
+  <img src="images/palisades_full.png" width="300">
+  <p><em>nNBR of the Palisades Fire in California</em></p>
+</div>
+
 
 
 This is the model's output:
-<p align="center">
-  <img src="images\palisades_full_output.png" alt="Generator Architecture" width="300">
-</p>
+<div style="text-align: center;">
+  <img src="images/palisades_full_output.png" width="300">
+  <p><em>nNBR of the Palisades Fire in California</em></p>
+</div>
+
 
 

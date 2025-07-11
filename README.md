@@ -185,24 +185,25 @@ python -O m2m_download.py --acq-date $DATE \
 
 ## Result
 
-So we have the input of as nNBR:
-
-*Input: nNBR of the AUGUST COMPLEX Fire*
-<p align="center">
-  <img src="images\nNBR_august.png" alt="Generator Architecture" width="300">
-</p>
-
-*Ground truth*
-<p align="center">
-  <img src="images\august_groundtruth_cm.png" alt="Generator Architecture" width="300">
-</p>
+**Input: nNBR of the fire scene**
+<div style="text-align: center;">
+  <img src="images/nNBR_august.png" width="300">
+  <p><em>nNBR of the AUGUST COMPLEX Fire</em></p>
+</div>
 
 
-*Model's ouput*
-<p align="center">
-  <img src="images\august_prediction_cm.png" alt="Generator Architecture" width="300">
-</p>
+**And the BP as the ground truth:**
+<div style="text-align: center;">
+  <img src="images/august_groundtruth_cm.png" width="300">
+  <p><em>Burn probability of the AUGUST COMPLEX Fire</em></p>
+</div>
 
+
+**This is the model's output:**
+<div style="text-align: center;">
+  <img src="images/august_prediction_cm.png" width="300">
+  <p><em>Model's output</em></p>
+</div>
 <!-- ROADMAP
 ## Roadmap
 
