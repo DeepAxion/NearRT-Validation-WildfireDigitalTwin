@@ -184,26 +184,22 @@ python -O m2m_download.py --acq-date $DATE \
 
 
 ## Result
+<!-- AUGUST COMPLEX FIRE -->
 
-**Input: nNBR of the fire scene**
-<div style="text-align: center;">
-  <img src="images/nNBR_august.png" width="300">
-  <p><em>nNBR of the AUGUST COMPLEX Fire</em></p>
-</div>
+<img src="images/nNBR_august.png" alt="nNBR August Complex Fire" width="300" style="display: block; margin: auto;" />
+<p style="text-align: center;"><em>nNBR of the AUGUST COMPLEX Fire</em></p>
+
+<p>And the BP as the ground truth:</p>
+
+<img src="images/august_groundtruth_cm.png" alt="Burn Probability Ground Truth August Complex Fire" width="300" style="display: block; margin: auto;" />
+<p style="text-align: center;"><em>Burn Probability of the AUGUST COMPLEX Fire (Ground Truth)</em></p>
+
+<p>This is the model's output:</p>
+
+<img src="images/august_prediction_cm.png" alt="Model Output August Complex Fire" width="300" style="display: block; margin: auto;" />
+<p style="text-align: center;"><em>Model Output for Burn Probability Approximation</em></p>
 
 
-**And the BP as the ground truth:**
-<div style="text-align: center;">
-  <img src="images/august_groundtruth_cm.png" width="300">
-  <p><em>Burn probability of the AUGUST COMPLEX Fire</em></p>
-</div>
-
-
-**This is the model's output:**
-<div style="text-align: center;">
-  <img src="images/august_prediction_cm.png" width="300">
-  <p><em>Model's output</em></p>
-</div>
 <!-- ROADMAP
 ## Roadmap
 
