@@ -75,21 +75,27 @@ We then ran the model on the Palisades Fire, California to test the generalizati
 
 For better visualization, we re-assembled these 256x256 output images. Next, we ran the assembled image through a C++ program to colormap images with values in the range [0,100] and masked values above 101:
 
+<!-- AUGUST COMPLEX -->
 So we have the input of as nNBR:
 
-<!-- AUGUST COMPLEX FIRE -->
-<img src="images/nNBR_august.png" alt="nNBR August Complex Fire" width="300" style="display: block; margin: auto;" />
+<p align="center">
+  <img src="images/nNBR_august.png" alt="nNBR August Complex Fire" width="300" style="display: block; margin: auto;" />
+</p>
 <p style="text-align: center;"><em>nNBR of the AUGUST COMPLEX Fire</em></p>
 
 <p>And the BP as the ground truth:</p>
 
-<img src="images/august_groundtruth_cm.png" alt="Burn Probability Ground Truth August Complex Fire" width="300" style="display: block; margin: auto;" />
+<p align="center">
+  <img src="images/august_groundtruth_cm.png" alt="Burn Probability Ground Truth August Complex Fire" width="300" style="display: block; margin: auto;" />
+</p>
 <p style="text-align: center;"><em>Burn Probability of the AUGUST COMPLEX Fire (Ground Truth)</em></p>
 
 <p>This is the model's output:</p>
 
-<img src="images/august_prediction_cm.png" alt="Model Output August Complex Fire" width="300" style="display: block; margin: auto;" />
-<p style="text-align: center;"><em>Model Output for Burn Probability Prediction (AUGUST COMPLEX Fire)</em></p>
+<p align="center">
+  <img src="images/august_prediction_cm.png" alt="Model Output August Complex Fire" width="300" style="display: block; margin: auto;" />
+</p>
+<p style="text-align: center;"><em>Model Output for Burn Probability Approximation</em></p>
 
 <hr>
 
@@ -97,15 +103,19 @@ So we have the input of as nNBR:
 
 <p>We also assembled the Palisades Fire scene and colormapped the full image:</p>
 
-<img src="images/nNBR_palisades.png" alt="nNBR Palisades Fire" width="300" style="display: block; margin: auto;" />
+<p align="center">
+  <img src="images/nNBR_palisades.png" alt="nNBR Palisades Fire" width="300" style="display: block; margin: auto;" />
+</p>
 <p style="text-align: center;"><em>nNBR of the PALISADES Fire in California</em></p>
 
 <p>And the BP as the ground truth:</p>
-
-<img src="images/palisades_full.png" alt="Burn Probability Ground Truth Palisades Fire" width="300" style="display: block; margin: auto;" />
+<p align="center">
+  <img src="images/palisades_full.png" alt="Burn Probability Ground Truth Palisades Fire" width="300" style="display: block; margin: auto;" />
+</p>
 <p style="text-align: center;"><em>Burn Probability of the PALISADES Fire (Ground Truth)</em></p>
 
 <p>This is the model's output:</p>
-
-<img src="images/palisades_full_output.png" alt="Model Output Palisades Fire" width="300" style="display: block; margin: auto;" />
+<p align="center">
+  <img src="images/palisades_full_output.png" alt="Model Output Palisades Fire" width="300" style="display: block; margin: auto;" />
+</p>
 <p style="text-align: center;"><em>Model Output for Burn Probability Prediction (PALISADES Fire)</em></p>
