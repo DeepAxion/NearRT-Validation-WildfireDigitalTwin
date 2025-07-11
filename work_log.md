@@ -43,7 +43,7 @@ We casted our problem of estimating BP from Landsat data as an image transformat
 
 Input NBR images were scaled and shifted to help the model perform better, creating a intermediate product that we would like to call nNBR. Clouds and water pixels were also removed to reduce noises. 
 
-![images/2025-07-10-21-57-47.png](images/nNBR.png)
+![images/2025-07-10-21-57-47.png](images/nNBR_august.png)
 *nNBR image of the AUGUST COMPLEX Fire* (5000x5000)
 
 ![images/2025-07-10-22-11-16.png](images/bp_august.png)
@@ -76,6 +76,25 @@ For better visualization, we re-assembled these 256x256 output images. Next, we 
 
 So we have the input of as nNBR:
 
+*nNBR of the AUGUST COMPLEX Fire*
+<p align="center">
+  <img src="images\nNBR_august.png" alt="Generator Architecture" width="300">
+</p>
+
+And the BP as the ground truth:
+<p align="center">
+  <img src="images\august_groundtruth_cm.png" alt="Generator Architecture" width="300">
+</p>
+
+
+This is the model's output:
+<p align="center">
+  <img src="images\august_prediction_cm.png" alt="Generator Architecture" width="300">
+</p>
+
+
+We also assembled the Palisades Fire scene and colormapped the full image:
+
 *nNBR of the Palisades Fire in California*
 <p align="center">
   <img src="images\nNBR_palisades.png" alt="Generator Architecture" width="300">
@@ -83,12 +102,13 @@ So we have the input of as nNBR:
 
 And the BP as the ground truth:
 <p align="center">
-  <img src="images\bp_palisades.png" alt="Generator Architecture" width="300">
+  <img src="images\palisades_full.png" alt="Generator Architecture" width="300">
 </p>
 
 
 This is the model's output:
 <p align="center">
-  <img src="images\palisades_full.png" alt="Generator Architecture" width="300">
+  <img src="images\palisades_full_output.png" alt="Generator Architecture" width="300">
 </p>
+
 

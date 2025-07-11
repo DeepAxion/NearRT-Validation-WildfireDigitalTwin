@@ -185,20 +185,22 @@ python -O m2m_download.py --acq-date $DATE \
 
 ## Result
 
-***Input: nNBR of the Palisades Fire in California***
+So we have the input of as nNBR:
+
+*Input: nNBR of the AUGUST COMPLEX Fire*
 <p align="center">
-  <img src="images\nNBR_palisades.png" alt="Generator Architecture" width="300">
+  <img src="images\nNBR_august.png" alt="Generator Architecture" width="300">
 </p>
 
-***Ground truth: USGS Burn Probability Product***
+*Ground truth*
 <p align="center">
-  <img src="images\bp_palisades.png" alt="Generator Architecture" width="300">
+  <img src="images\august_groundtruth_cm.png" alt="Generator Architecture" width="300">
 </p>
 
 
-***Model's output***
+*Model's ouput*
 <p align="center">
-  <img src="images\palisades_full.png" alt="Generator Architecture" width="300">
+  <img src="images\august_prediction_cm.png" alt="Generator Architecture" width="300">
 </p>
 
 <!-- ROADMAP
