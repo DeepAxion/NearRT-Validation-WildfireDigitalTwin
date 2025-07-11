@@ -196,14 +196,14 @@ python -O m2m_download.py --acq-date $DATE \
 <p align="center">
   <img src="images/august_groundtruth_cm.png" alt="Burn Probability Ground Truth August Complex Fire" width="300" style="display: block; margin: auto;" />
 </p>
-<p style="text-align: center;"><em>Burn Probability of the AUGUST COMPLEX Fire (Ground Truth)</em></p>
+<p align="center"><em>Burn Probability of the AUGUST COMPLEX Fire (Ground Truth)</em></p>
 
 <p>This is the model's output:</p>
 
 <p align="center">
   <img src="images/august_prediction_cm.png" alt="Model Output August Complex Fire" width="300" style="display: block; margin: auto;" />
 </p>
-<p style="text-align: center;"><em>Model Output for Burn Probability Approximation</em></p>
+<p align="center"><em>Model Output for Burn Probability Approximation</em></p>
 
 
 <!-- ROADMAP
